@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Jeevan Marshal - Web Development Portfolio featuring projects, designs, and landing pages.">
+    <title>Jeevan Marshal | Portfolio</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;600;800&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav id="navbar" class="glass-nav">
+        <div class="nav-container">
+            <a href="#" class="logo">Jeevan<span>Marshal</span></a>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header id="home" class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">Crafting Digital <br><span class="gradient-text">Experiences</span></h1>
+            <p class="hero-subtitle">Meticulous Web Developer building scalable, beautiful, and interactive applications. Exploring the full spectrum of frontend and backend technologies.</p>
+            <div class="hero-cta">
+                <a href="#projects" class="btn btn-primary">View Projects <i class="fa-solid fa-arrow-right"></i></a>
+                <a href="https://github.com/jeevanmarshal" target="_blank" class="btn btn-secondary"><i class="fa-brands fa-github"></i> GitHub</a>
+            </div>
+            
+            <div class="scroll-indicator">
+                <div class="mouse">
+                    <div class="wheel"></div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Abstract Background Shapes -->
+        <div class="bg-shape shape-1"></div>
+        <div class="bg-shape shape-2"></div>
+        <div class="bg-shape shape-3"></div>
+    </header>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills-section">
+        <div class="section-container">
+            <h2 class="section-title">Core <span class="gradient-text">Skills</span></h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <i class="fa-brands fa-html5 skill-icon"></i>
+                    <h3>HTML5</h3>
+                    <p>Semantic structuring and accessibility</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fa-brands fa-css3-alt skill-icon"></i>
+                    <h3>CSS3 / UI</h3>
+                    <p>Modern layouts, animations & glassmorphism</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fa-brands fa-js skill-icon"></i>
+                    <h3>JavaScript</h3>
+                    <p>Dynamic interfaces and DOM manipulation</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fa-brands fa-react skill-icon"></i>
+                    <h3>React & Vite</h3>
+                    <p>Component-driven web applications</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fa-brands fa-node skill-icon"></i>
+                    <h3>Backend</h3>
+                    <p>Node.js, Express, databases & APIs</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fa-brands fa-git-alt skill-icon"></i>
+                    <h3>Git / GitHub</h3>
+                    <p>Version control & collaborative workflows</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects-section">
+        <div class="section-container">
+            <h2 class="section-title">Latest <span class="gradient-text">Projects</span></h2>
+            <p class="section-subtitle">A collection of my recent web development practices, landing pages, and full-stack applications.</p>
+            
+            <div class="projects-grid" id="projects-container">
+                <!-- Projects will be dynamically injected here via JavaScript -->
+                <div class="loading-state" id="projects-loader">
+                    <div class="spinner"></div>
+                    <p>Loading projects...</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="section-container">
+            <div class="contact-card glass-panel">
+                <h2 class="section-title">Let's <span class="gradient-text">Connect</span></h2>
+                <p>Always open to discussing web development, new projects, or creative ideas.</p>
+                <div class="contact-links">
+                    <a href="mailto:jeevanmarshal@gmail.com" class="social-link"><i class="fa-regular fa-envelope"></i> Email Me</a>
+                    <a href="https://linkedin.com/in/jeevanmarshal" target="_blank" class="social-link"><i class="fa-brands fa-linkedin"></i> LinkedIn</a>
+                    <a href="https://github.com/jeevanmarshal" target="_blank" class="social-link"><i class="fa-brands fa-github"></i> GitHub</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <p>&copy; <span id="year"></span> Jeevan Marshal. All rights reserved.</p>
+            <p class="footer-sub">Designed and built with passion.</p>
+        </div>
+    </footer>
+
+    <!-- Custom JS -->
+    <script src="js/app.js"></script>
+</body>
+</html>
