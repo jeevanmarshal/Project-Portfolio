@@ -3,7 +3,7 @@
         "id": "qr-design",
         "title": "QR Design Component",
         "description": "A beautifully designed, responsive QR code component layout built primarily with HTML and modern CSS.",
-        "image": "https://image.thum.io/get/width/600/crop/600/https://jeevanmarshal.github.io/Designing/QR-Design",
+        "image": "https://raw.githubusercontent.com/jeevanmarshal/Designing/main/QR-Design/images/image-qr-code.png",
         "tags": [
             "HTML",
             "CSS",
