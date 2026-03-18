@@ -13,5 +13,20 @@
         "demoLink": "https://jeevanmarshal.github.io/Designing/QR-Design",
         "repoLink": "https://github.com/jeevanmarshal/Designing/tree/master/QR-Design",
         "date": "2026-03-17"
+    },
+    {
+        "id": "blog-preview-card",
+        "title": "Blog Preview Card",
+        "description": "A fully responsive, interactive blog preview card component with clean typography and modern styling.",
+        "image": "https://raw.githubusercontent.com/jeevanmarshal/Designing/main/Blog-Preview-Card/assets/images/illustration-article.svg",
+        "tags": [
+            "HTML",
+            "CSS",
+            "UI Component",
+            "Design"
+        ],
+        "demoLink": "https://jeevanmarshal.github.io/Designing/Blog-Preview-Card",
+        "repoLink": "https://github.com/jeevanmarshal/Designing/tree/main/Blog-Preview-Card",
+        "date": "2026-03-18"
     }
 ]
