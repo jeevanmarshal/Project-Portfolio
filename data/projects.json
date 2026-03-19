@@ -28,5 +28,20 @@
         "demoLink": "https://jeevanmarshal.github.io/Designing/Blog-Preview-Card",
         "repoLink": "https://github.com/jeevanmarshal/Designing/tree/main/Blog-Preview-Card",
         "date": "2026-03-18"
+    },
+    {
+        "id": "results-summary-component",
+        "title": "Results Summary Component",
+        "description": "A responsive results summary component card layout, displaying calculated scores and visually engaging layout elements with modern styling.",
+        "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=600&auto=format&fit=crop",
+        "tags": [
+            "HTML",
+            "CSS",
+            "UI Component",
+            "Layout"
+        ],
+        "demoLink": "https://jeevanmarshal.github.io/Designing/Results-Summary-Component",
+        "repoLink": "https://github.com/jeevanmarshal/Designing/tree/main/Results-Summary-Component",
+        "date": "2026-03-19"
     }
 ]
